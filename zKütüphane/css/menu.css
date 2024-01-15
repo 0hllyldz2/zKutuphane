@@ -1,0 +1,21 @@
+.acilir-menu {
+    display: none;
+    position: absolute;
+    background-color: var(--primary-color);
+    color: #fff;
+    min-width: 120px;
+    border-radius: 5px;
+}
+
+.acilir-menu a {
+    display: block;
+    text-align: center;
+}
+
+.acilir-menu a:hover {
+    color: white;
+}
+
+.menu:hover .acilir-menu {
+    display: block;
+}
